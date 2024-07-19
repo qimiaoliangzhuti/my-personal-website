@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 链接到样式表 -->
+</head>
+<body>
+    <header>
+        <!-- 在这里可以放置网站导航、标题或个人照片等 -->
+        <h1>欢迎来到我的个人网站</h1>
+        <!-- 添加个人照片 -->
+        <img src="assets/profile-photo.jpg" alt="我的个人照片" class="profile-photo">
+    </header>
+    
+    <!-- 下面是展示个人的简介 -->
+    <section id="intro">
+        <h2>个人简介</h2>
+        <!-- 这里可以添加你的文字介绍 -->
+        <p>我是一个热衷于技术的人，喜欢分享知识和经验。</p>
+    </section>
+    
+    <!-- 视频展示区域 -->
+    <section id="video">
+        <h2>我的视频</h2>
+        <!-- 使用HTML5的video标签嵌入视频 -->
+        <video width="640" height="480" controls> <!-- controls属性表示显示播放控制条 -->
+            <!-- 指定视频文件路径 -->
+            <source src="assets/my-video.mp4" type="video/mp4">
+            您的浏览器不支持视频播放功能。请升级您的浏览器或尝试其他格式的视频文件。
+        </video>
+    </section>
+
+    <script src="script.js"></script> <!-- 链接到JavaScript文件 -->
+</body>
+</html>
